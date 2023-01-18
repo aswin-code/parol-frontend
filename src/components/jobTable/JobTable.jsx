@@ -20,6 +20,7 @@ function JobTable() {
                 <div className="job">
                     <ul>
                         <li>Full Stack Developer</li>
+                        <li><span>Google .inc</span></li>
                     </ul>
                     <div className="btn-group">
                         <button>view</button>
