@@ -1,0 +1,50 @@
+.carosual{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    span{
+        max-width: 480px;
+        font-size: 4rem;
+    }
+    .btn-group{
+          display: flex;
+          gap: 10px;
+        button{
+            padding: 10px 20px;
+            background: none;
+            border: none;
+            border-radius: 5px;
+          
+        }
+        button:hover{
+             color: white;
+            background-color:#0f9ea3;
+        }
+        .active{
+            color: white;
+            background-color:rgb(27, 141, 235);
+        }
+    }
+    .query-group{
+        width: 100%;
+        display: flex;
+        gap: 50px;
+        button{
+            flex: 1;
+            padding: 10px 20px;
+            background: none;
+            border-radius: 5px;
+            border: 0.5px solid rgb(148, 148, 148);
+            
+        }
+        .active{
+             color: white;
+             border: none;
+            background-color:rgb(27, 141, 235);
+        }
+    }
+}

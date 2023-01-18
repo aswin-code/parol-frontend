@@ -1,0 +1,44 @@
+nav{
+    display: flex;
+    align-items: center;
+    height: 8.5rem;
+    margin-left: 100px;
+    margin-right: 20px;
+    .left{
+        flex: 2;
+        display: flex;
+        gap: 5.5rem;
+        h3{
+          font-size: 2.5rem;
+          font-weight: 200;
+        }
+        .btn-group{
+            align-self: center;
+            button{
+                padding: 10px 20px;
+                border: none;
+                font-size: 1rem;
+                background: transparent;
+            }
+            button:hover{
+                 border-bottom: 3px solid rgb(88, 146, 255);
+            }
+            .active{
+                border-bottom: 3px solid rgb(88, 146, 255);
+            }
+        }
+    }
+    .right{
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 90px;
+        .icons{
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}
